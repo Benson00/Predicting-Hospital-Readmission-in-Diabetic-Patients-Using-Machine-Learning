@@ -1,0 +1,99 @@
+
+\documentclass[11pt]{article}
+\usepackage{subfig} 
+
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{graphicx} 
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{titling}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{caption}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{multicol}
+
+
+\lstset{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  stringstyle=\color{red},
+  commentstyle=\color{gray},
+  showstringspaces=false,
+  breaklines=true,
+  frame=single,
+  backgroundcolor=\color{gray!10}
+}
+
+
+\DeclareFieldFormat[book]{chapter}{#1}
+\renewbibmacro*{bbx:chapter+editor+title}{%
+  \printfield{chapter}%
+  \setunit{\addspace}%
+  \printnames{editor}%
+  \newunit
+  \printfield{title}%
+}
+
+\addbibresource{references.bib}
+
+% Packages for formatting
+\usepackage{graphicx}
+\usepackage{lipsum} % For dummy text (remove this in actual document)
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+% Customization for title page
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    {\Huge \textbf{Predicting Hospital Readmission in Diabetic Patients Using Machine Learning} \par}
+    \vspace{2cm}
+    
+    {\Large Master Degree in Artificial Intelligence \par}
+    \vspace{0.5cm}
+    
+    {\Large Course: Machine Learning \par}
+    \vspace{0.5cm}
+    
+    {\Large Academic Year: 2024 - 2025 \par}
+    \vfill
+    
+    \textbf{Author:} \\
+    Fidanza Riccardo - VR516130\\
+    \vspace{1cm}
+
+    \includegraphics[width=0.3\textwidth]{images/logo.png}
+    \vspace{1cm}
+    
+    {\Large University of Verona \par}
+    \vspace{0.5cm}
+    
+\end{titlepage}
+
+
+\begin{abstract}
+\noindent Diabetes mellitus is a chronic condition frequently associated with hospital readmissions due to challenges in effective disease management. In this study, a subset of the original \textit{Diabetes 130-US hospitals for years 1999–2008} dataset is used to develop and compare machine learning (ML) methods for predicting readmission risk in diabetic patients. The prediction task is formulated as a binary classification to determine whether a patient will be readmitted or not. ML models are trained using the complete feature set as well as after applying feature selection. The goal is to identify effective ML approaches for the early detection of high-risk patients and to facilitate more efficient healthcare research.
+
+\end{abstract}
+
+\tableofcontents  % Generates the Table of Contents
+\newpage 
+
+\include{Chapters/Intro}
+\include{Chapters/Implementation}
+\include{Chapters/Results}
+\include{Chapters/Conclusion}
+
+\printbibliography
+
+\end{document}
