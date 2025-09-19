@@ -26,8 +26,6 @@ def load_subset(target):
         raise ValueError("Invalid target specified. Use 'task1'.")
     
 
-
-
 def plot_pca(df):
     X = df.drop(['target'], axis=1)
     scaler = StandardScaler()
@@ -80,9 +78,6 @@ def feature_selection(X, y, rf_model):
     
     return X_selected, y
 
-
-
-##########################
 
 def fine_tune_and_cross_validate(X, y, model, param_grid, cv_splits=5):
     from sklearn.model_selection import GridSearchCV, StratifiedKFold

@@ -23,9 +23,9 @@ While the initial results can be considered moderate—not particularly poor, bu
  & Mean & Std & Mean & Std & Mean & Std & Mean & Std \\
 \hline
 Decision Tree & 0.6210 & 0.0069 & 0.6102 & 0.0065 & 0.6210 & 0.0069 & 0.6216 & 0.0079 \\
-\textbf{Random Forest} & \textbf{0.6316} & \textbf{0.0097} & \textbf{0.6182} & \textbf{0.0108} & \textbf{0.6316} & \textbf{0.0097} & \textbf{0.6352} & \textbf{0.0102} \\
+\textbf{Random Forest} & \textbf{0.6330} & \textbf{0.0103} & \textbf{0.6197} & \textbf{0.0.121} & \textbf{0.6330} & \textbf{0.0103} & \textbf{0.6743} & \textbf{0.0105} \\
 KNN & 0.5653 & 0.0061 & 0.5591 & 0.0064 & 0.5653 & 0.0061 & 0.5611 & 0.0065 \\
-Logistic Regression & 0.6172 & 0.0122 & 0.5951 & 0.0135 & 0.6172 & 0.0122 & 0.6252 & 0.0146 \\
+Logistic Regression & 0.6173 & 0.0123 & 0.5952 & 0.0136 & 0.6173 & 0.0123 & 0.6252 & 0.0146 \\
 Bernoulli Naive Bayes & 0.6056 & 0.0095 & 0.5676 & 0.0116 & 0.6056 & 0.0095 & 0.6236 & 0.0126 \\
 \hline
 \end{tabular}
@@ -93,20 +93,18 @@ Bernoulli Naive Bayes & 0.6146 & 0.6137 & 0.6146 & 0.6135 \\
 
 \section{AUC Curve}
 
-To evaluate a model's ability to discriminate between classes, I used the Receiver Operating Characteristic (ROC) curve, which illustrates the trade-off between the True Positive Rate (TPR) and False Positive Rate (FPR) across different decision thresholds. The Area Under the Curve (AUC) provides a single scalar value summarizing this performance: a value of 1 indicates perfect discrimination, 0.5 corresponds to random guessing, and values in between reflect the model's ability to distinguish positive from negative instances.\\\\
-The results indicated in Figure \ref{fig:cinque-immagini} are related on the feature-selected dataset and show that the Random Forest model achieved the highest discriminative performance, while KNN and Bernoulli Naive Bayes exhibited the lowest. All models performed better than random, yet none reached near-perfect classification, suggesting room for improvement. The AUC metric is particularly valuable as it provides a threshold-independent assessment of model quality, facilitating fair comparisons across different classifiers. These results are in line with the state-of-the-art performance on this task, which reported a maximum AUC of approximately 0.68. Although artificial neural networks (ANNs) can achieve slightly higher AUC scores, they operate as black-box models, offering limited interpretability compared to the tree-based and linear classifiers used here.
+To evaluate a model's ability to discriminate between classes, I used the Receiver Operating Characteristic (ROC) curve as metric, which illustrates the trade-off between the True Positive Rate (TPR) and False Positive Rate (FPR) across different decision thresholds. The Area Under the Curve (AUC) provides a single scalar value summarizing this performance: a value of 1 indicates perfect discrimination, 0.5 corresponds to random guessing, and values in between reflect the model's ability to distinguish positive from negative instances.\\\\
+The results indicated in Figure \ref{fig:cinque-immagini} are related on the test set of the feature-selected dataset and show that the Random Forest model achieved the highest discriminative performance, while KNN and Bernoulli Naive Bayes exhibited the lowest. All models performed better than random, yet none reached near-perfect classification, suggesting room for improvement. The AUC metric is particularly valuable as it provides a threshold-independent assessment of model quality, facilitating fair comparisons across different classifiers. These results are in line with the state-of-the-art performance on this task, which reported a maximum AUC of approximately 0.68. Although artificial neural networks (ANNs) can achieve slightly higher AUC scores, they operate as black-box models, offering limited interpretability compared to the tree-based and linear classifiers used here.
 
 \begin{figure}[h!]
     \centering
-    % --- Prima riga: 2 immagini ---
+
     \includegraphics[width=0.45\textwidth]{images/rocDT.png}
     \includegraphics[width=0.45\textwidth]{images/rocRF.png}
 
-    % --- Seconda riga: 2 immagini ---
     \includegraphics[width=0.45\textwidth]{images/rocKNN.png}
     \includegraphics[width=0.45\textwidth]{images/rocLR.png}
 
-    % --- Terza riga: 1 immagine centrata ---
     \includegraphics[width=0.6\textwidth]{images/rocNB.png}
 
     \caption{ROC curves of the models evaluated on the test set}
