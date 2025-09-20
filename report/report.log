@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.11)  19 SEP 2025 17:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.11)  20 SEP 2025 10:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -613,20 +613,195 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \mult@nat@firstbox=\box107
 \colbreak@box=\box108
 \mc@col@check@num=\count445
-) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+ (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen193
+\pgfutil@tempdimb=\dimen194
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box109
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+ (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen195
+\pgf@y=\dimen196
+\pgf@xa=\dimen197
+\pgf@ya=\dimen198
+\pgf@xb=\dimen199
+\pgf@yb=\dimen256
+\pgf@xc=\dimen257
+\pgf@yc=\dimen258
+\pgf@xd=\dimen259
+\pgf@yd=\dimen260
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count446
+\c@pgf@countb=\count447
+\c@pgf@countc=\count448
+\c@pgf@countd=\count449
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count450
+ (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count451
+\pgfsyssoftpath@bigbuffer@items=\count452
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+\pgfmath@dimen=\dimen261
+\pgfmath@count=\count453
+\pgfmath@box=\box110
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count454
+)) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen262
+\pgf@picmaxx=\dimen263
+\pgf@picminy=\dimen264
+\pgf@picmaxy=\dimen265
+\pgf@pathminx=\dimen266
+\pgf@pathmaxx=\dimen267
+\pgf@pathminy=\dimen268
+\pgf@pathmaxy=\dimen269
+\pgf@xx=\dimen270
+\pgf@xy=\dimen271
+\pgf@yx=\dimen272
+\pgf@yy=\dimen273
+\pgf@zx=\dimen274
+\pgf@zy=\dimen275
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen276
+\pgf@path@lasty=\dimen277
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen278
+\pgf@shorten@start@additional=\dimen279
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box111
+\pgf@hbox=\box112
+\pgf@layerbox@main=\box113
+\pgf@picture@serial@count=\count455
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen280
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen281
+\pgf@pt@y=\dimen282
+\pgf@pt@temp=\dimen283
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen284
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen285
+\pgf@sys@shading@range@num=\count456
+\pgf@shadingcount=\count457
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box114
+)
+(C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box115
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen286
+\pgf@nodesepend=\dimen287
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks36
+\verbatim@line=\toks37
+\verbatim@in@stream=\read4
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks38
+)
+\tcb@titlebox=\box116
+\tcb@upperbox=\box117
+\tcb@lowerbox=\box118
+\tcb@phantombox=\box119
+\c@tcbbreakpart=\count458
+\c@tcblayer=\count459
+\c@tcolorbox@number=\count460
+\l__tcobox_tmpa_box=\box120
+\l__tcobox_tmpa_dim=\dimen288
+\tcb@temp=\box121
+\tcb@temp=\box122
+\tcb@temp=\box123
+\tcb@temp=\box124
+) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+)
+\c@tcblisting=\count461
+)) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 
 Package biblatex Warning: Macro 'bbx:chapter+editor+title' undefined.
-(biblatex)                Using \newbibmacro on input line 38.
+(biblatex)                Using \newbibmacro on input line 39.
 
 (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
 Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count446
-\l__lipsum_a_int=\count447
-\l__lipsum_b_int=\count448
+\g__lipsum_par_int=\count462
+\l__lipsum_a_int=\count463
+\l__lipsum_b_int=\count464
  (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
 
 Package geometry Warning: Over-specification in `h'-direction.
@@ -636,29 +811,29 @@ Package geometry Warning: Over-specification in `h'-direction.
 Package geometry Warning: Over-specification in `v'-direction.
     `height' (578.15999pt) is ignored.
 
-\@quotelevel=\count449
-\@quotereset=\count450
+\@quotelevel=\count465
+\@quotereset=\count466
 (report.aux (Chapters/Intro.aux) (Chapters/Implementation.aux) (Chapters/Results.aux) (Chapters/Conclusion.aux))
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -706,28 +881,28 @@ Package caption Info: End \AtBeginDocument code.
 
 (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count451
-\scratchdimen=\dimen193
-\scratchbox=\box109
-\nofMPsegments=\count452
-\nofMParguments=\count453
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count454
-\MPscratchDim=\dimen194
-\MPnumerator=\count455
-\makeMPintoPDFobject=\count456
-\everyMPtoPDFconversion=\toks27
+\scratchcounter=\count467
+\scratchdimen=\dimen289
+\scratchbox=\box125
+\nofMPsegments=\count468
+\nofMParguments=\count469
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count470
+\MPscratchDim=\dimen290
+\MPnumerator=\count471
+\makeMPintoPDFobject=\count472
+\everyMPtoPDFconversion=\toks40
 ) (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@lstlisting=\count457
-Package hyperref Info: Link coloring OFF on input line 55.
+\c@lstlisting=\count473
+Package hyperref Info: Link coloring OFF on input line 56.
  (report.out) (report.out)
-\@outlinefile=\write4
-\openout4 = `report.out'.
+\@outlinefile=\write5
+\openout5 = `report.out'.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -742,12 +917,12 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
  (report.bbl)
-Package biblatex Info: Reference section=0 on input line 55.
-Package biblatex Info: Reference segment=0 on input line 55.
-<images/logo.png, id=87, 359.09157pt x 132.495pt>
+Package biblatex Info: Reference section=0 on input line 56.
+Package biblatex Info: Reference segment=0 on input line 56.
+<images/logo.png, id=90, 359.09157pt x 132.495pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 75.
+Package pdftex.def Info: images/logo.png  used on input line 76.
 (pdftex.def)             Requested size: 135.89174pt x 50.14038pt.
  [1
 
@@ -759,14 +934,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
 )
-\tf@toc=\write5
-\openout5 = `report.toc'.
+\tf@toc=\write6
+\openout6 = `report.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.90 \newpage
+l.91 \newpage
               [1]
 \openout2 = `Chapters/Intro.aux'.
 
@@ -780,7 +955,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--16
 
  []
 
-<images/balance.png, id=149, 571.13374pt x 428.60126pt>
+<images/balance.png, id=152, 571.13374pt x 428.60126pt>
 File: images/balance.png Graphic file (type png)
 <use images/balance.png>
 Package pdftex.def Info: images/balance.png  used on input line 22.
@@ -804,12 +979,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 101--93
-
- []
-
-[7]
+[7]) [8]
 \openout2 = `Chapters/Results.aux'.
 
  (Chapters/Results.tex
@@ -817,7 +987,7 @@ Overfull \hbox (43.99849pt too wide) in paragraph at lines 20--32
  [][] 
  []
 
-[8
+[9
 
 
 
@@ -831,27 +1001,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
-<images/rocDT.png, id=185, 538.01pt x 471.7625pt>
+<images/rocDT.png, id=197, 538.01pt x 471.7625pt>
 File: images/rocDT.png Graphic file (type png)
 <use images/rocDT.png>
 Package pdftex.def Info: images/rocDT.png  used on input line 102.
 (pdftex.def)             Requested size: 203.83417pt x 178.73172pt.
-<images/rocRF.png, id=186, 538.01pt x 471.7625pt>
+<images/rocRF.png, id=198, 538.01pt x 471.7625pt>
 File: images/rocRF.png Graphic file (type png)
 <use images/rocRF.png>
 Package pdftex.def Info: images/rocRF.png  used on input line 103.
 (pdftex.def)             Requested size: 203.83417pt x 178.73172pt.
-<images/rocKNN.png, id=187, 538.01pt x 471.7625pt>
+<images/rocKNN.png, id=199, 538.01pt x 471.7625pt>
 File: images/rocKNN.png Graphic file (type png)
 <use images/rocKNN.png>
 Package pdftex.def Info: images/rocKNN.png  used on input line 105.
 (pdftex.def)             Requested size: 203.83417pt x 178.73172pt.
-<images/rocLR.png, id=188, 538.01pt x 471.7625pt>
+<images/rocLR.png, id=200, 538.01pt x 471.7625pt>
 File: images/rocLR.png Graphic file (type png)
 <use images/rocLR.png>
 Package pdftex.def Info: images/rocLR.png  used on input line 106.
 (pdftex.def)             Requested size: 203.83417pt x 178.73172pt.
-<images/rocNB.png, id=189, 538.01pt x 471.7625pt>
+<images/rocNB.png, id=201, 538.01pt x 471.7625pt>
 File: images/rocNB.png Graphic file (type png)
 <use images/rocNB.png>
 Package pdftex.def Info: images/rocNB.png  used on input line 108.
@@ -859,24 +1029,24 @@ Package pdftex.def Info: images/rocNB.png  used on input line 108.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [9] [10 <./images/rocDT.png> <./images/rocRF.png> <./images/rocKNN.png> <./images/rocLR.png> <./images/rocNB.png>]
+) [10] [11 <./images/rocDT.png> <./images/rocRF.png> <./images/rocKNN.png> <./images/rocLR.png> <./images/rocNB.png>]
 \openout2 = `Chapters/Conclusion.aux'.
 
  (Chapters/Conclusion.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 3--95
+Underfull \hbox (badness 10000) in paragraph at lines 3--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--95
+Underfull \hbox (badness 10000) in paragraph at lines 3--96
 
  []
 
-[11
+[12
 
 
 
-] [12
+] [13
 
 
 ] (report.aux (Chapters/Intro.aux) (Chapters/Implementation.aux) (Chapters/Results.aux) (Chapters/Conclusion.aux))
@@ -891,17 +1061,17 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20927 strings out of 474486
- 373871 string characters out of 5743755
+ 30730 strings out of 474486
+ 596877 string characters out of 5743755
  1943542 words of memory out of 5000000
- 42911 multiletter control sequences out of 15000+600000
+ 52517 multiletter control sequences out of 15000+600000
  564742 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,81p,1210b,1265s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,11n,87p,1210b,1265s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\rikyf\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report.pdf (13 pages, 379553 bytes).
+Output written on report.pdf (14 pages, 385974 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 204 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 283 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
 

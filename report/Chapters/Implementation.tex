@@ -98,7 +98,41 @@ Finally, to compare the models, I assessed their performance on the test set usi
 
 
 \subsection{Machine Learning Models}
-A set of models was trained and evaluated. Among these, the Decision Tree Classifier and the Random Forest Classifier were included due to their simplicity and interpretability. These tree-based approaches are particularly advantageous because they can handle both numerical and categorical features without requiring feature scaling, making them robust and versatile across diverse datasets.\\
-In contrast, the K-Nearest Neighbors (KNN) algorithm was employed as a non-parametric, instance-based learning method that does not rely on explicit assumptions about the underlying data distribution.\\
-As a linear and interpretable model, Logistic Regression was incorporated to serve as a strong baseline, particularly effective in high-dimensional settings.\\
-Bernoulli Naive Bayes was selected due to its computational efficiency and its appropriateness for binary-valued feature spaces, which aligns with the characteristics of our dataset.\\
+In order to remain consistent with the state of the art in predictive modeling, a heterogeneous set of machine learning models was selected. The goal was to explore different methodological paradigms, ranging from tree-based approaches to instance-based, probabilistic, and linear models. 
+
+\paragraph{Decision Tree Classifier (DT).}
+Decision Trees were chosen as an intuitive and interpretable baseline among tree-based methods. Their ability to handle both numerical and categorical attributes without requiring feature scaling makes them particularly robust for heterogeneous datasets such as the one considered.
+\begin{tcolorbox}[colback=gray!5!white,colframe=gray!50!black,
+                  boxrule=0.5pt,arc=2pt, left=1mm, right=1mm, top=0.5mm, bottom=0.5mm]
+\texttt{criterion=gini, max\_depth=5, min\_samples\_split=2}
+\end{tcolorbox}
+
+\paragraph{Random Forest Classifier (RF).}
+To extend the expressive power of a single decision tree, an ensemble of trees was constructed through Random Forests. 
+\begin{tcolorbox}[colback=gray!5!white,colframe=gray!50!black,
+                  boxrule=0.5pt,arc=2pt, left=1mm, right=1mm, top=0.5mm, bottom=0.5mm]
+\texttt{criterion=gini, max\_depth=10, min\_samples\_split=5, n\_estimators=100}
+\end{tcolorbox}
+
+\paragraph{K-Nearest Neighbors (KNN).}
+KNN was employed as a non-parametric, instance-based learning algorithm that makes no explicit assumptions about the data distribution. By relying on local neighborhood information, it provides a complementary decision-making perspective compared to tree ensembles and linear models. 
+\begin{tcolorbox}[colback=gray!5!white,colframe=gray!50!black,
+                  boxrule=0.5pt,arc=2pt, left=1mm, right=1mm, top=0.5mm, bottom=0.5mm]
+\texttt{metric=manhattan, n\_neighbors=9, weights=uniform}
+\end{tcolorbox}
+
+\paragraph{Logistic Regression (LR).}
+Logistic Regression was included as a linear and highly interpretable baseline. Despite its simplicity, it often performs competitively in high-dimensional settings and provides a clear probabilistic framework for binary classification. 
+\begin{tcolorbox}[colback=gray!5!white,colframe=gray!50!black,
+                  boxrule=0.5pt,arc=2pt, left=1mm, right=1mm, top=0.5mm, bottom=0.5mm]
+\texttt{C=0.01, max\_iter=100, penalty=l1, solver=saga}
+\end{tcolorbox}
+
+\paragraph{Bernoulli Naive Bayes (BNB).}
+Finally, Bernoulli Naive Bayes was selected for its computational efficiency and its suitability for binary-valued feature spaces, which align closely with the characteristics of several variables in the dataset. 
+\begin{tcolorbox}[colback=gray!5!white,colframe=gray!50!black,
+                  boxrule=0.5pt,arc=2pt, left=1mm, right=1mm, top=0.5mm, bottom=0.5mm]
+\texttt{alpha=0.01, binarize=1.0, fit\_prior=True}
+\end{tcolorbox}
+
+
