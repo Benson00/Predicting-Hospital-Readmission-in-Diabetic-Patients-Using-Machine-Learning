@@ -14,7 +14,7 @@ The final results are summarized in the `report.pdf`.
 - `fs.ipynb` – Feature selection  
 - `models.ipynb` – Model training and evaluation  
 - `functions.py` – Utility functions used across notebooks  
-- `report.pdf` – Project report with methodology and results  
+- `report.pdf` – Project report with methodology and results (in report folder).
 
 ---
 
