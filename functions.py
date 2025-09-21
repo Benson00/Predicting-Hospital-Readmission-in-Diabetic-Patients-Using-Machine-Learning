@@ -85,19 +85,19 @@ def fine_tune_and_cross_validate(X, y, model, param_grid, cv_splits=5):
     import numpy as np
     import matplotlib.pyplot as plt
 
-    # Fine tuning con GridSearchCV
+    
     grid_search = GridSearchCV(model, param_grid, cv=cv_splits, scoring='accuracy', n_jobs=-1)
     grid_search.fit(X, y)
     print("Best hyperparameters:", grid_search.best_params_)
 
-    # Cross validation con best hyperparameters
+    
     best_model = grid_search.best_estimator_
     kfold = StratifiedKFold(n_splits=cv_splits, shuffle=True, random_state=42)
 
-    # metriche base
+   
     accuracy_list, recall_list, precision_list, f1_list = [], [], [], []
 
-    # ROC curve
+   
     mean_fpr = np.linspace(0, 1, 100)
     tpr_list, roc_auc_list = [], []
 
@@ -109,7 +109,6 @@ def fine_tune_and_cross_validate(X, y, model, param_grid, cv_splits=5):
         y_pred = best_model.predict(X_test)
         y_prob = best_model.predict_proba(X_test)[:, 1]
 
-        # metriche scalari
         accuracy = accuracy_score(y_test, y_pred)
         f1 = f1_score(y_test, y_pred, average='weighted')
         recall = recall_score(y_test, y_pred, average='weighted')
@@ -127,7 +126,6 @@ def fine_tune_and_cross_validate(X, y, model, param_grid, cv_splits=5):
         tpr_list.append(tpr_interp)
         roc_auc_list.append(auc(fpr, tpr))
 
-    # statistiche globali (mean, std)
     accuracy_mean, f1_mean = np.mean(accuracy_list), np.mean(f1_list)
     recall_mean, precision_mean = np.mean(recall_list), np.mean(precision_list)
     accuracy_std, f1_std = np.std(accuracy_list), np.std(f1_list)
@@ -168,7 +166,6 @@ def test_model(model, X_train, y_train, X_test, y_test, model_name="Model"):
     y_pred = model.predict(X_test)
     y_prob = model.predict_proba(X_test)[:, 1]
 
-    # metriche scalari
     accuracy = accuracy_score(y_test, y_pred)
     f1 = f1_score(y_test, y_pred, average='weighted')
     recall = recall_score(y_test, y_pred, average='weighted')

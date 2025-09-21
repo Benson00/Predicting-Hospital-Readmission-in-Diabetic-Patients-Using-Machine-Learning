@@ -1,0 +1,11 @@
+Top 10 features:
+1. Feature number_inpatient - Importance: 0.2129
+2. Feature num_lab_procedures - Importance: 0.0844
+3. Feature num_medications - Importance: 0.0833
+4. Feature discharge_disposition_id - Importance: 0.0808
+5. Feature number_diagnoses - Importance: 0.0650
+6. Feature number_emergency - Importance: 0.0549
+7. Feature time_in_hospital - Importance: 0.0540
+8. Feature number_outpatient - Importance: 0.0528
+9. Feature admission_source_id - Importance: 0.0461
+10. Feature num_procedures - Importance: 0.0389

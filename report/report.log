@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.11)  20 SEP 2025 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.11)  21 SEP 2025 14:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -793,7 +793,7 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 
 Package biblatex Warning: Macro 'bbx:chapter+editor+title' undefined.
-(biblatex)                Using \newbibmacro on input line 39.
+(biblatex)                Using \newbibmacro on input line 41.
 
 (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\rikyf\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
 Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
@@ -816,24 +816,24 @@ Package geometry Warning: Over-specification in `v'-direction.
 (report.aux (Chapters/Intro.aux) (Chapters/Implementation.aux) (Chapters/Results.aux) (Chapters/Conclusion.aux))
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -899,7 +899,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count473
-Package hyperref Info: Link coloring OFF on input line 56.
+Package hyperref Info: Link coloring OFF on input line 58.
  (report.out) (report.out)
 \@outlinefile=\write5
 \openout5 = `report.out'.
@@ -917,12 +917,12 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
  (report.bbl)
-Package biblatex Info: Reference section=0 on input line 56.
-Package biblatex Info: Reference segment=0 on input line 56.
-<images/logo.png, id=90, 359.09157pt x 132.495pt>
+Package biblatex Info: Reference section=0 on input line 58.
+Package biblatex Info: Reference segment=0 on input line 58.
+<images/logo.png, id=94, 359.09157pt x 132.495pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 76.
+Package pdftex.def Info: images/logo.png  used on input line 78.
 (pdftex.def)             Requested size: 135.89174pt x 50.14038pt.
  [1
 
@@ -941,7 +941,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.91 \newpage
+l.93 \newpage
               [1]
 \openout2 = `Chapters/Intro.aux'.
 
@@ -955,7 +955,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--16
 
  []
 
-<images/balance.png, id=152, 571.13374pt x 428.60126pt>
+<images/balance.png, id=157, 571.13374pt x 428.60126pt>
 File: images/balance.png Graphic file (type png)
 <use images/balance.png>
 Package pdftex.def Info: images/balance.png  used on input line 22.
@@ -970,12 +970,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--65
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
@@ -1001,52 +1001,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
-<images/rocDT.png, id=197, 538.01pt x 471.7625pt>
+[10]
+<images/rocDT.png, id=207, 538.01pt x 471.7625pt>
 File: images/rocDT.png Graphic file (type png)
 <use images/rocDT.png>
-Package pdftex.def Info: images/rocDT.png  used on input line 102.
+Package pdftex.def Info: images/rocDT.png  used on input line 104.
 (pdftex.def)             Requested size: 203.83417pt x 178.73172pt.
-<images/rocRF.png, id=198, 538.01pt x 471.7625pt>
+<images/rocRF.png, id=208, 538.01pt x 471.7625pt>
 File: images/rocRF.png Graphic file (type png)
 <use images/rocRF.png>
-Package pdftex.def Info: images/rocRF.png  used on input line 103.
+Package pdftex.def Info: images/rocRF.png  used on input line 105.
 (pdftex.def)             Requested size: 203.83417pt x 178.73172pt.
-<images/rocKNN.png, id=199, 538.01pt x 471.7625pt>
+<images/rocKNN.png, id=209, 538.01pt x 471.7625pt>
 File: images/rocKNN.png Graphic file (type png)
 <use images/rocKNN.png>
-Package pdftex.def Info: images/rocKNN.png  used on input line 105.
+Package pdftex.def Info: images/rocKNN.png  used on input line 107.
 (pdftex.def)             Requested size: 203.83417pt x 178.73172pt.
-<images/rocLR.png, id=200, 538.01pt x 471.7625pt>
+<images/rocLR.png, id=210, 538.01pt x 471.7625pt>
 File: images/rocLR.png Graphic file (type png)
 <use images/rocLR.png>
-Package pdftex.def Info: images/rocLR.png  used on input line 106.
+Package pdftex.def Info: images/rocLR.png  used on input line 108.
 (pdftex.def)             Requested size: 203.83417pt x 178.73172pt.
-<images/rocNB.png, id=201, 538.01pt x 471.7625pt>
+<images/rocNB.png, id=211, 538.01pt x 471.7625pt>
 File: images/rocNB.png Graphic file (type png)
 <use images/rocNB.png>
-Package pdftex.def Info: images/rocNB.png  used on input line 108.
+Package pdftex.def Info: images/rocNB.png  used on input line 110.
 (pdftex.def)             Requested size: 271.7835pt x 238.32095pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [10] [11 <./images/rocDT.png> <./images/rocRF.png> <./images/rocKNN.png> <./images/rocLR.png> <./images/rocNB.png>]
+ [11 <./images/rocDT.png> <./images/rocRF.png> <./images/rocKNN.png> <./images/rocLR.png> <./images/rocNB.png>]) [12]
 \openout2 = `Chapters/Conclusion.aux'.
 
  (Chapters/Conclusion.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 3--96
+Underfull \hbox (badness 10000) in paragraph at lines 3--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--96
+Underfull \hbox (badness 10000) in paragraph at lines 3--98
 
  []
 
-[12
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--98
+
+ []
+
+[13
 
 
 
-] [13
+] [14
 
 
 ] (report.aux (Chapters/Intro.aux) (Chapters/Implementation.aux) (Chapters/Results.aux) (Chapters/Conclusion.aux))
@@ -1055,23 +1058,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 67F7E6AC26980E5174C1182895791FBA;3929.
+(rerunfilecheck)             Checksum: B81C7C721292BB369D318008516425D9;4134.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30730 strings out of 474486
- 596877 string characters out of 5743755
+ 30739 strings out of 474486
+ 597026 string characters out of 5743755
  1943542 words of memory out of 5000000
- 52517 multiletter control sequences out of 15000+600000
+ 52523 multiletter control sequences out of 15000+600000
  564742 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,11n,87p,1210b,1265s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\rikyf\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/rikyf/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report.pdf (14 pages, 385974 bytes).
+Output written on report.pdf (15 pages, 390857 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 

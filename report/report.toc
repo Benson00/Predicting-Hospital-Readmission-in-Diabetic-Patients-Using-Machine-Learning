@@ -16,11 +16,12 @@
 \contentsline {subsection}{\numberline {2.7}Machine Learning Models}{7}{subsection.2.7}%
 \contentsline {paragraph}{Decision Tree Classifier (DT).}{7}{section*.4}%
 \contentsline {paragraph}{Random Forest Classifier (RF).}{7}{section*.5}%
-\contentsline {paragraph}{K-Nearest Neighbors (KNN).}{7}{section*.6}%
+\contentsline {paragraph}{K-Nearest Neighbors (KNN).}{8}{section*.6}%
 \contentsline {paragraph}{Logistic Regression (LR).}{8}{section*.7}%
 \contentsline {paragraph}{Bernoulli Naive Bayes (BNB).}{8}{section*.8}%
 \contentsline {section}{\numberline {3}Results}{9}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Model Performance on Full Dataset}{9}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Model Performance after Feature Selection}{9}{subsection.3.2}%
-\contentsline {section}{\numberline {4}AUC Curve}{10}{section.4}%
-\contentsline {section}{\numberline {5}Conclusion}{12}{section.5}%
+\contentsline {subsection}{\numberline {3.3}ROC-AUC Analysis}{10}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Feature Importances}{11}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Conclusion}{13}{section.4}%

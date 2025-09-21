@@ -91,10 +91,12 @@ Bernoulli Naive Bayes & 0.6146 & 0.6137 & 0.6146 & 0.6135 \\
 \end{tabular}
 \end{table}
 
-\section{AUC Curve}
+\subsection{ROC-AUC Analysis}
 
 To evaluate a model's ability to discriminate between classes, I used the Receiver Operating Characteristic (ROC) curve as metric, which illustrates the trade-off between the True Positive Rate (TPR) and False Positive Rate (FPR) across different decision thresholds. The Area Under the Curve (AUC) provides a single scalar value summarizing this performance: a value of 1 indicates perfect discrimination, 0.5 corresponds to random guessing, and values in between reflect the model's ability to distinguish positive from negative instances.\\\\
-The results indicated in Figure \ref{fig:cinque-immagini} are related on the test set of the feature-selected dataset and show that the Random Forest model achieved the highest discriminative performance, while KNN and Bernoulli Naive Bayes exhibited the lowest. All models performed better than random, yet none reached near-perfect classification, suggesting room for improvement. The AUC metric is particularly valuable as it provides a threshold-independent assessment of model quality, facilitating fair comparisons across different classifiers. These results are in line with the state-of-the-art performance on this task, which reported a maximum AUC of approximately 0.68. Although artificial neural networks (ANNs) can achieve slightly higher AUC scores, they operate as black-box models, offering limited interpretability compared to the tree-based and linear classifiers used here.
+The results indicated in Figure \ref{fig:cinque-immagini} are related on the test set of the feature-selected dataset and show that the Random Forest model achieved the highest discriminative performance, while KNN exhibited the lowest. All models performed better than random, yet none reached near-perfect classification, suggesting room for improvement. The AUC metric is particularly valuable as it provides a threshold-independent assessment of model quality, facilitating fair comparisons across different classifiers. These results are in line with the state-of-the-art performance on this task, which reported a maximum AUC of approximately 0.68. Although artificial neural networks (ANNs) can achieve slightly higher AUC scores, they operate as black-box models, offering limited interpretability compared to the tree-based and linear classifiers used here.
+
+\newpage
 
 \begin{figure}[h!]
     \centering
@@ -110,3 +112,44 @@ The results indicated in Figure \ref{fig:cinque-immagini} are related on the tes
     \caption{ROC curves of the models evaluated on the test set}
     \label{fig:cinque-immagini}
 \end{figure}
+
+
+
+\subsection{Feature Importances}
+
+Table \ref{tab:top10_features_colored} shows the ten most important features as determined by the best model (Random Forest), along with their relative importance scores.
+
+\begin{table}[ht]
+\centering
+\caption{Top 10 Features by Importance}
+\label{tab:top10_features_colored}
+\begin{tabular}{clc}
+\toprule
+\textbf{Rank} & \textbf{Feature} & \textbf{Importance} \\
+\midrule
+\rowcolor{red!40} 1  & number\_inpatient         & 0.2129 \\
+\rowcolor{red!20} 2  & num\_lab\_procedures      & 0.0844 \\
+\rowcolor{red!20} 3  & num\_medications          & 0.0833 \\
+\rowcolor{red!20} 4  & discharge\_disposition\_id & 0.0808 \\
+\rowcolor{orange!20} 5  & number\_diagnoses         & 0.0650 \\
+\rowcolor{orange!20} 6  & number\_emergency         & 0.0549 \\
+\rowcolor{orange!20} 7  & time\_in\_hospital        & 0.0540 \\
+\rowcolor{orange!20} 8  & number\_outpatient        & 0.0528 \\
+\rowcolor{yellow!20} 9  & admission\_source\_id     & 0.0461 \\
+\rowcolor{yellow!20} 10 & num\_procedures           & 0.0389 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent
+Analyzing the top-ranked features reveals several important insights into the factors influencing hospital readmission. In particular, the features highlighted in red indicate the strongest predictors:
+
+\begin{itemize}
+    \item \textbf{number\_inpatient} emerges as the single most influential factor, showing that patients with a higher number of prior hospitalizations face a substantially increased risk of readmission.
+    \item \textbf{num\_lab\_procedures} and \textbf{num\_medications} reflect the clinical complexity and severity of a patient's condition, indicating that those requiring more tests or medications are more susceptible to returning to the hospital.
+    \item \textbf{discharge\_disposition\_id} demonstrates that the type of discharge destination significantly impacts readmission risk, suggesting that patients discharged to environments with limited follow-up or support are more likely to be readmitted.
+\end{itemize}
+\noindent
+\noindent
+This suggests that both the patient's prior utilization of hospital services and the complexity of their current clinical condition play critical roles in predicting readmission. Overall, these findings highlight the importance of careful monitoring of high-risk patients and ensuring appropriate post-discharge follow-up in order to reduce readmission rates.
+
