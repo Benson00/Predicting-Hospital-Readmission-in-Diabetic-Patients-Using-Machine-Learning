@@ -84,10 +84,9 @@ To assess the performance of the machine learning models, several evaluation met
 Together, these metrics offer a comprehensive evaluation framework that goes beyond simple accuracy, helping to better understand the trade-offs and effectiveness of each model.
 
 \subsection{Dimensionality Reduction through Feature Selection}
-
-To reduce the dimensionality of the dataset and retain only the most informative features, we applied \textbf{Recursive Feature Elimination with Cross-Validation (RFECV)}. This method works by recursively removing the least important features based on the rankings produced by a specified estimator, while evaluating model performance at each iteration using cross-validation.
-For this purpose, we selected a \textbf{Random Forest classifier} as the base estimator, owing to its robustness and its capability to provide meaningful feature importance scores. RFECV automatically determined the optimal number of features by maximizing the cross-validated \texttt{accuracy} score.
-As a result, the original feature set was reduced from 103 to 30 features, retaining those most relevant for predicting hospital readmission. Subsequently, we applied the same procedures of hyperparameter tuning, cross-validation, and model evaluation described earlier, now using the reduced feature set.
+To reduce the dimensionality of the dataset and retain only the most informative features, I applied \textbf{Recursive Feature Elimination with Cross-Validation (RFECV)}. This method works by recursively removing the least important features based on the rankings produced by a specified estimator, while evaluating model performance at each iteration using cross-validation.
+For this purpose, I selected a \textbf{Random Forest classifier} as the base estimator, owing to its robustness and its capability to provide meaningful feature importance scores. RFECV automatically determined the optimal number of features by maximizing the cross-validated \texttt{accuracy} score.
+As a result, the original feature set was reduced from 103 to 30 features, retaining those most relevant for predicting hospital readmission. Subsequently, I applied the same procedures of hyperparameter tuning, cross-validation, and model evaluation described earlier, now using the reduced feature set.
 
 \subsection{Hyperparameter Tuning, Cross-Validation, and test set evaluation}
 I performed hyperparameter tuning using a grid search strategy. This approach systematically explores a predefined set of hyperparameter combinations to identify the configuration that yields the best performance.\\
@@ -105,35 +104,35 @@ In order to remain consistent with the state of the art in predictive modeling, 
 Decision Trees were chosen as an intuitive and interpretable baseline among tree-based methods. Their ability to handle both numerical and categorical attributes without requiring feature scaling makes them particularly robust for heterogeneous datasets such as the one considered.
 \begin{tcolorbox}[colback=gray!5!white,colframe=gray!50!black,
                   boxrule=0.5pt,arc=2pt, left=1mm, right=1mm, top=0.5mm, bottom=0.5mm]
-\texttt{criterion=gini, max\_depth=5, min\_samples\_split=2}
+\texttt{Parameters: criterion=gini, max\_depth=5, min\_samples\_split=2}
 \end{tcolorbox}
 
 \paragraph{Random Forest Classifier (RF).}
 To extend the expressive power of a single decision tree, an ensemble of trees was constructed through Random Forests. 
 \begin{tcolorbox}[colback=gray!5!white,colframe=gray!50!black,
                   boxrule=0.5pt,arc=2pt, left=1mm, right=1mm, top=0.5mm, bottom=0.5mm]
-\texttt{criterion=gini, max\_depth=10, min\_samples\_split=5, n\_estimators=100}
+\texttt{Parameters: criterion=gini, max\_depth=10, min\_samples\_split=5, n\_estimators=100}
 \end{tcolorbox}
 
 \paragraph{K-Nearest Neighbors (KNN).}
 KNN was employed as a non-parametric, instance-based learning algorithm that makes no explicit assumptions about the data distribution. By relying on local neighborhood information, it provides a complementary decision-making perspective compared to tree ensembles and linear models. 
 \begin{tcolorbox}[colback=gray!5!white,colframe=gray!50!black,
                   boxrule=0.5pt,arc=2pt, left=1mm, right=1mm, top=0.5mm, bottom=0.5mm]
-\texttt{metric=manhattan, n\_neighbors=9, weights=uniform}
+\texttt{Parameters: metric=manhattan, n\_neighbors=9, weights=uniform}
 \end{tcolorbox}
 
 \paragraph{Logistic Regression (LR).}
 Logistic Regression was included as a linear and highly interpretable baseline. Despite its simplicity, it often performs competitively in high-dimensional settings and provides a clear probabilistic framework for binary classification. 
 \begin{tcolorbox}[colback=gray!5!white,colframe=gray!50!black,
                   boxrule=0.5pt,arc=2pt, left=1mm, right=1mm, top=0.5mm, bottom=0.5mm]
-\texttt{C=0.01, max\_iter=100, penalty=l1, solver=saga}
+\texttt{Parameters: C=0.01, max\_iter=100, penalty=l1, solver=saga}
 \end{tcolorbox}
 
 \paragraph{Bernoulli Naive Bayes (BNB).}
 Finally, Bernoulli Naive Bayes was selected for its computational efficiency and its suitability for binary-valued feature spaces, which align closely with the characteristics of several variables in the dataset. 
 \begin{tcolorbox}[colback=gray!5!white,colframe=gray!50!black,
                   boxrule=0.5pt,arc=2pt, left=1mm, right=1mm, top=0.5mm, bottom=0.5mm]
-\texttt{alpha=0.01, binarize=1.0, fit\_prior=True}
+\texttt{Parameters: alpha=0.01, binarize=1.0, fit\_prior=True}
 \end{tcolorbox}
 
 

@@ -4,11 +4,11 @@ This section presents the results obtained from applying various machine learnin
 
 \subsection{Model Performance on Full Dataset}
 
-Cross-validated results, reported in Table~\ref{tab:cv_performance_fd}, highlight the performance of the models when evaluated on the full dataset using repeated stratified $k$-fold cross-validation. Among all models, the \textbf{Random Forest} consistently achieved the best performance across all metrics, demonstrating robustness and generalization ability.
+The cross-validated results reported in Table~\ref{tab:cv_performance_fd} highlight the performance of the models when evaluated on the full dataset using repeated stratified k-fold cross-validation. They show the mean and standard deviation (Std) of each metric. Among all models, the \textbf{Random Forest} consistently achieved the best performance across all metrics, demonstrating robustness and generalization ability.
 \noindent
 The results obtained on the held-out test set, summarized in Table~\ref{tab:test_performance_fd}, confirm the trends observed during cross-validation. Again, the Random Forest classifier slightly outperformed the others, showing balanced precision and recall.
 \noindent
-While the initial results can be considered moderate—not particularly poor, but not outstanding either—I proceed by applying feature selection to investigate whether performance can be enhanced. These methods aim to reduce noise, remove redundant or irrelevant features, and highlight the most informative dimensions of the data. By simplifying the feature space, I hope to improve model generalization, reduce overfitting, and ultimately increase predictive accuracy and robustness on unseen data.
+While the initial results can be considered moderate (not particularly poor, but not outstanding either), I proceed by applying feature selection to investigate whether performance can be enhanced. These methods aim to reduce noise, remove redundant or irrelevant features, and highlight the most informative dimensions of the data. By simplifying the feature space, I hope to improve model generalization, reduce overfitting, and ultimately increase predictive accuracy and robustness on unseen data.
 
 
 
